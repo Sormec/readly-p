@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemInicio"
+        android:title="Inicio" />
+    <item
+        android:id="@+id/itemActividades"
+        android:title="Actividades" />
+    <item
+        android:id="@+id/itemProgreso"
+        android:title="Progreso" />
+    <item
+        android:id="@+id/itemPerfil"
+        android:title="Perfil" />
+    <item
+        android:id="@+id/itemAyuda"
+        android:title="Ayuda" />
+    <item
+        android:id="@+id/itemRegistros"
+        android:title="Registros" />
+    <item
+        android:id="@+id/itemConsultarDatos"
+        android:title="Consultar Datos" />
+    <item
+        android:id="@+id/itemEjercicios"
+        android:title="Ejercicios" />
+    <item
+        android:id="@+id/itemCerrarSesion"
+        android:title="Cerrar Sesión" />
+</menu>

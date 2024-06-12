@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Readly</string>
+    <string-array name="nacionalidad">
+        <item>Seleccione</item>
+        <item>Argentina</item>
+        <item>Bolivia</item>
+        <item>Brasil</item>
+        <item>Chile</item>
+        <item>Colombia</item>
+        <item>Ecuador</item>
+        <item>Perú</item>
+        <item>Venezuela</item>
+    </string-array>
+</resources>

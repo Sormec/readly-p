@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colornegro">#FF000000</color>
+    <color name="colorblanco">#FFFFFFFF</color>
+    <color name="colorprimario">#6C4EA6</color>
+    <color name="colorsecundario">#4378A1</color>
+    <color name="colorterciario">#B89FE6</color>
+    <color name="coloralertas">#FF5722</color>
+</resources>
