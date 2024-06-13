@@ -186,7 +186,7 @@ public class ConsultardatosActivity extends AppCompatActivity {
             cv.put("correo", correo);
             cv.put("fechaNac", fechaNacimiento);
             cv.put("nacionalidad", nacionalidad);
-            cv.put("genero", genero);
+            //cv.put("genero", genero);
 
             dbReadlyMode.update("usuario",cv,"cedula="+cedula,null);
         }
