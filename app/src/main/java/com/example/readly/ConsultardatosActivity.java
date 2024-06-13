@@ -170,7 +170,7 @@ public class ConsultardatosActivity extends AppCompatActivity {
 
             dbReadlyMode.insert("usuario",null,cv);
         }
-        dbReadlyMode.close();
+        //dbReadlyMode.close();
     }
 
     public void actualizarBD(String cedula, String nombres, String apellidos, String correo,
@@ -196,7 +196,7 @@ public class ConsultardatosActivity extends AppCompatActivity {
     private int verificarStatusSD() {
         String status = Environment.getExternalStorageState();
         if (status.equals(Environment.MEDIA_MOUNTED)) {
-            Toast.makeText(this, "Memoria montada correctamente", Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this, "Memoria montada correctamente", Toast.LENGTH_SHORT).show();
             return 0;
         } else if (status.equals(Environment.MEDIA_MOUNTED_READ_ONLY)) {
             Toast.makeText(this, "Memoria solo de lectura", Toast.LENGTH_SHORT).show();
